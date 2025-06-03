@@ -1,0 +1,2107 @@
+$date
+	Mon Jun 02 19:43:47 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module RAM_16X4_tb $end
+$var wire 4 ! data_out_test [3:0] $end
+$var parameter 32 " DURATION $end
+$var reg 4 # addr_test [3:0] $end
+$var reg 1 $ clk_test $end
+$var reg 4 % data_in_test [3:0] $end
+$var reg 1 & read_enable_test $end
+$var reg 1 ' reset_test $end
+$var reg 1 ( set_test $end
+$var reg 1 ) write_enable_test $end
+$scope module UUT $end
+$var wire 4 * addr [3:0] $end
+$var wire 1 $ clk $end
+$var wire 4 + data_in [3:0] $end
+$var wire 1 & read_enable $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var wire 1 ) write_enable $end
+$var wire 16 , enable_lines [15:0] $end
+$var wire 4 - data_out [3:0] $end
+$scope begin memory_cells[0] $end
+$var parameter 2 . i $end
+$scope module reg_inst $end
+$var wire 4 / D_in [3:0] $end
+$var wire 1 $ clk $end
+$var wire 1 0 enable $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var wire 4 1 Q [3:0] $end
+$scope begin FF_GEN[0] $end
+$var parameter 2 2 i $end
+$scope module ff $end
+$var wire 1 3 D $end
+$var wire 1 4 Qn $end
+$var wire 1 $ clk $end
+$var wire 1 0 en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 5 Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[1] $end
+$var parameter 2 6 i $end
+$scope module ff $end
+$var wire 1 7 D $end
+$var wire 1 8 Qn $end
+$var wire 1 $ clk $end
+$var wire 1 0 en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 9 Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[2] $end
+$var parameter 3 : i $end
+$scope module ff $end
+$var wire 1 ; D $end
+$var wire 1 < Qn $end
+$var wire 1 $ clk $end
+$var wire 1 0 en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 = Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[3] $end
+$var parameter 3 > i $end
+$scope module ff $end
+$var wire 1 ? D $end
+$var wire 1 @ Qn $end
+$var wire 1 $ clk $end
+$var wire 1 0 en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 A Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin memory_cells[1] $end
+$var parameter 2 B i $end
+$scope module reg_inst $end
+$var wire 4 C D_in [3:0] $end
+$var wire 1 $ clk $end
+$var wire 1 D enable $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var wire 4 E Q [3:0] $end
+$scope begin FF_GEN[0] $end
+$var parameter 2 F i $end
+$scope module ff $end
+$var wire 1 G D $end
+$var wire 1 H Qn $end
+$var wire 1 $ clk $end
+$var wire 1 D en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 I Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[1] $end
+$var parameter 2 J i $end
+$scope module ff $end
+$var wire 1 K D $end
+$var wire 1 L Qn $end
+$var wire 1 $ clk $end
+$var wire 1 D en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 M Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[2] $end
+$var parameter 3 N i $end
+$scope module ff $end
+$var wire 1 O D $end
+$var wire 1 P Qn $end
+$var wire 1 $ clk $end
+$var wire 1 D en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 Q Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[3] $end
+$var parameter 3 R i $end
+$scope module ff $end
+$var wire 1 S D $end
+$var wire 1 T Qn $end
+$var wire 1 $ clk $end
+$var wire 1 D en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 U Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin memory_cells[2] $end
+$var parameter 3 V i $end
+$scope module reg_inst $end
+$var wire 4 W D_in [3:0] $end
+$var wire 1 $ clk $end
+$var wire 1 X enable $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var wire 4 Y Q [3:0] $end
+$scope begin FF_GEN[0] $end
+$var parameter 2 Z i $end
+$scope module ff $end
+$var wire 1 [ D $end
+$var wire 1 \ Qn $end
+$var wire 1 $ clk $end
+$var wire 1 X en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 ] Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[1] $end
+$var parameter 2 ^ i $end
+$scope module ff $end
+$var wire 1 _ D $end
+$var wire 1 ` Qn $end
+$var wire 1 $ clk $end
+$var wire 1 X en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 a Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[2] $end
+$var parameter 3 b i $end
+$scope module ff $end
+$var wire 1 c D $end
+$var wire 1 d Qn $end
+$var wire 1 $ clk $end
+$var wire 1 X en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 e Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[3] $end
+$var parameter 3 f i $end
+$scope module ff $end
+$var wire 1 g D $end
+$var wire 1 h Qn $end
+$var wire 1 $ clk $end
+$var wire 1 X en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 i Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin memory_cells[3] $end
+$var parameter 3 j i $end
+$scope module reg_inst $end
+$var wire 4 k D_in [3:0] $end
+$var wire 1 $ clk $end
+$var wire 1 l enable $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var wire 4 m Q [3:0] $end
+$scope begin FF_GEN[0] $end
+$var parameter 2 n i $end
+$scope module ff $end
+$var wire 1 o D $end
+$var wire 1 p Qn $end
+$var wire 1 $ clk $end
+$var wire 1 l en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 q Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[1] $end
+$var parameter 2 r i $end
+$scope module ff $end
+$var wire 1 s D $end
+$var wire 1 t Qn $end
+$var wire 1 $ clk $end
+$var wire 1 l en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 u Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[2] $end
+$var parameter 3 v i $end
+$scope module ff $end
+$var wire 1 w D $end
+$var wire 1 x Qn $end
+$var wire 1 $ clk $end
+$var wire 1 l en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 y Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[3] $end
+$var parameter 3 z i $end
+$scope module ff $end
+$var wire 1 { D $end
+$var wire 1 | Qn $end
+$var wire 1 $ clk $end
+$var wire 1 l en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 } Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin memory_cells[4] $end
+$var parameter 4 ~ i $end
+$scope module reg_inst $end
+$var wire 4 !" D_in [3:0] $end
+$var wire 1 $ clk $end
+$var wire 1 "" enable $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var wire 4 #" Q [3:0] $end
+$scope begin FF_GEN[0] $end
+$var parameter 2 $" i $end
+$scope module ff $end
+$var wire 1 %" D $end
+$var wire 1 &" Qn $end
+$var wire 1 $ clk $end
+$var wire 1 "" en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 '" Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[1] $end
+$var parameter 2 (" i $end
+$scope module ff $end
+$var wire 1 )" D $end
+$var wire 1 *" Qn $end
+$var wire 1 $ clk $end
+$var wire 1 "" en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 +" Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[2] $end
+$var parameter 3 ," i $end
+$scope module ff $end
+$var wire 1 -" D $end
+$var wire 1 ." Qn $end
+$var wire 1 $ clk $end
+$var wire 1 "" en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 /" Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[3] $end
+$var parameter 3 0" i $end
+$scope module ff $end
+$var wire 1 1" D $end
+$var wire 1 2" Qn $end
+$var wire 1 $ clk $end
+$var wire 1 "" en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 3" Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin memory_cells[5] $end
+$var parameter 4 4" i $end
+$scope module reg_inst $end
+$var wire 4 5" D_in [3:0] $end
+$var wire 1 $ clk $end
+$var wire 1 6" enable $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var wire 4 7" Q [3:0] $end
+$scope begin FF_GEN[0] $end
+$var parameter 2 8" i $end
+$scope module ff $end
+$var wire 1 9" D $end
+$var wire 1 :" Qn $end
+$var wire 1 $ clk $end
+$var wire 1 6" en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 ;" Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[1] $end
+$var parameter 2 <" i $end
+$scope module ff $end
+$var wire 1 =" D $end
+$var wire 1 >" Qn $end
+$var wire 1 $ clk $end
+$var wire 1 6" en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 ?" Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[2] $end
+$var parameter 3 @" i $end
+$scope module ff $end
+$var wire 1 A" D $end
+$var wire 1 B" Qn $end
+$var wire 1 $ clk $end
+$var wire 1 6" en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 C" Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[3] $end
+$var parameter 3 D" i $end
+$scope module ff $end
+$var wire 1 E" D $end
+$var wire 1 F" Qn $end
+$var wire 1 $ clk $end
+$var wire 1 6" en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 G" Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin memory_cells[6] $end
+$var parameter 4 H" i $end
+$scope module reg_inst $end
+$var wire 4 I" D_in [3:0] $end
+$var wire 1 $ clk $end
+$var wire 1 J" enable $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var wire 4 K" Q [3:0] $end
+$scope begin FF_GEN[0] $end
+$var parameter 2 L" i $end
+$scope module ff $end
+$var wire 1 M" D $end
+$var wire 1 N" Qn $end
+$var wire 1 $ clk $end
+$var wire 1 J" en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 O" Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[1] $end
+$var parameter 2 P" i $end
+$scope module ff $end
+$var wire 1 Q" D $end
+$var wire 1 R" Qn $end
+$var wire 1 $ clk $end
+$var wire 1 J" en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 S" Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[2] $end
+$var parameter 3 T" i $end
+$scope module ff $end
+$var wire 1 U" D $end
+$var wire 1 V" Qn $end
+$var wire 1 $ clk $end
+$var wire 1 J" en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 W" Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[3] $end
+$var parameter 3 X" i $end
+$scope module ff $end
+$var wire 1 Y" D $end
+$var wire 1 Z" Qn $end
+$var wire 1 $ clk $end
+$var wire 1 J" en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 [" Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin memory_cells[7] $end
+$var parameter 4 \" i $end
+$scope module reg_inst $end
+$var wire 4 ]" D_in [3:0] $end
+$var wire 1 $ clk $end
+$var wire 1 ^" enable $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var wire 4 _" Q [3:0] $end
+$scope begin FF_GEN[0] $end
+$var parameter 2 `" i $end
+$scope module ff $end
+$var wire 1 a" D $end
+$var wire 1 b" Qn $end
+$var wire 1 $ clk $end
+$var wire 1 ^" en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 c" Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[1] $end
+$var parameter 2 d" i $end
+$scope module ff $end
+$var wire 1 e" D $end
+$var wire 1 f" Qn $end
+$var wire 1 $ clk $end
+$var wire 1 ^" en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 g" Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[2] $end
+$var parameter 3 h" i $end
+$scope module ff $end
+$var wire 1 i" D $end
+$var wire 1 j" Qn $end
+$var wire 1 $ clk $end
+$var wire 1 ^" en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 k" Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[3] $end
+$var parameter 3 l" i $end
+$scope module ff $end
+$var wire 1 m" D $end
+$var wire 1 n" Qn $end
+$var wire 1 $ clk $end
+$var wire 1 ^" en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 o" Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin memory_cells[8] $end
+$var parameter 5 p" i $end
+$scope module reg_inst $end
+$var wire 4 q" D_in [3:0] $end
+$var wire 1 $ clk $end
+$var wire 1 r" enable $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var wire 4 s" Q [3:0] $end
+$scope begin FF_GEN[0] $end
+$var parameter 2 t" i $end
+$scope module ff $end
+$var wire 1 u" D $end
+$var wire 1 v" Qn $end
+$var wire 1 $ clk $end
+$var wire 1 r" en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 w" Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[1] $end
+$var parameter 2 x" i $end
+$scope module ff $end
+$var wire 1 y" D $end
+$var wire 1 z" Qn $end
+$var wire 1 $ clk $end
+$var wire 1 r" en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 {" Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[2] $end
+$var parameter 3 |" i $end
+$scope module ff $end
+$var wire 1 }" D $end
+$var wire 1 ~" Qn $end
+$var wire 1 $ clk $end
+$var wire 1 r" en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 !# Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[3] $end
+$var parameter 3 "# i $end
+$scope module ff $end
+$var wire 1 ## D $end
+$var wire 1 $# Qn $end
+$var wire 1 $ clk $end
+$var wire 1 r" en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 %# Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin memory_cells[9] $end
+$var parameter 5 &# i $end
+$scope module reg_inst $end
+$var wire 4 '# D_in [3:0] $end
+$var wire 1 $ clk $end
+$var wire 1 (# enable $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var wire 4 )# Q [3:0] $end
+$scope begin FF_GEN[0] $end
+$var parameter 2 *# i $end
+$scope module ff $end
+$var wire 1 +# D $end
+$var wire 1 ,# Qn $end
+$var wire 1 $ clk $end
+$var wire 1 (# en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 -# Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[1] $end
+$var parameter 2 .# i $end
+$scope module ff $end
+$var wire 1 /# D $end
+$var wire 1 0# Qn $end
+$var wire 1 $ clk $end
+$var wire 1 (# en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 1# Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[2] $end
+$var parameter 3 2# i $end
+$scope module ff $end
+$var wire 1 3# D $end
+$var wire 1 4# Qn $end
+$var wire 1 $ clk $end
+$var wire 1 (# en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 5# Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[3] $end
+$var parameter 3 6# i $end
+$scope module ff $end
+$var wire 1 7# D $end
+$var wire 1 8# Qn $end
+$var wire 1 $ clk $end
+$var wire 1 (# en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 9# Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin memory_cells[10] $end
+$var parameter 5 :# i $end
+$scope module reg_inst $end
+$var wire 4 ;# D_in [3:0] $end
+$var wire 1 $ clk $end
+$var wire 1 <# enable $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var wire 4 =# Q [3:0] $end
+$scope begin FF_GEN[0] $end
+$var parameter 2 ># i $end
+$scope module ff $end
+$var wire 1 ?# D $end
+$var wire 1 @# Qn $end
+$var wire 1 $ clk $end
+$var wire 1 <# en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 A# Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[1] $end
+$var parameter 2 B# i $end
+$scope module ff $end
+$var wire 1 C# D $end
+$var wire 1 D# Qn $end
+$var wire 1 $ clk $end
+$var wire 1 <# en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 E# Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[2] $end
+$var parameter 3 F# i $end
+$scope module ff $end
+$var wire 1 G# D $end
+$var wire 1 H# Qn $end
+$var wire 1 $ clk $end
+$var wire 1 <# en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 I# Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[3] $end
+$var parameter 3 J# i $end
+$scope module ff $end
+$var wire 1 K# D $end
+$var wire 1 L# Qn $end
+$var wire 1 $ clk $end
+$var wire 1 <# en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 M# Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin memory_cells[11] $end
+$var parameter 5 N# i $end
+$scope module reg_inst $end
+$var wire 4 O# D_in [3:0] $end
+$var wire 1 $ clk $end
+$var wire 1 P# enable $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var wire 4 Q# Q [3:0] $end
+$scope begin FF_GEN[0] $end
+$var parameter 2 R# i $end
+$scope module ff $end
+$var wire 1 S# D $end
+$var wire 1 T# Qn $end
+$var wire 1 $ clk $end
+$var wire 1 P# en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 U# Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[1] $end
+$var parameter 2 V# i $end
+$scope module ff $end
+$var wire 1 W# D $end
+$var wire 1 X# Qn $end
+$var wire 1 $ clk $end
+$var wire 1 P# en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 Y# Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[2] $end
+$var parameter 3 Z# i $end
+$scope module ff $end
+$var wire 1 [# D $end
+$var wire 1 \# Qn $end
+$var wire 1 $ clk $end
+$var wire 1 P# en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 ]# Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[3] $end
+$var parameter 3 ^# i $end
+$scope module ff $end
+$var wire 1 _# D $end
+$var wire 1 `# Qn $end
+$var wire 1 $ clk $end
+$var wire 1 P# en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 a# Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin memory_cells[12] $end
+$var parameter 5 b# i $end
+$scope module reg_inst $end
+$var wire 4 c# D_in [3:0] $end
+$var wire 1 $ clk $end
+$var wire 1 d# enable $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var wire 4 e# Q [3:0] $end
+$scope begin FF_GEN[0] $end
+$var parameter 2 f# i $end
+$scope module ff $end
+$var wire 1 g# D $end
+$var wire 1 h# Qn $end
+$var wire 1 $ clk $end
+$var wire 1 d# en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 i# Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[1] $end
+$var parameter 2 j# i $end
+$scope module ff $end
+$var wire 1 k# D $end
+$var wire 1 l# Qn $end
+$var wire 1 $ clk $end
+$var wire 1 d# en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 m# Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[2] $end
+$var parameter 3 n# i $end
+$scope module ff $end
+$var wire 1 o# D $end
+$var wire 1 p# Qn $end
+$var wire 1 $ clk $end
+$var wire 1 d# en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 q# Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[3] $end
+$var parameter 3 r# i $end
+$scope module ff $end
+$var wire 1 s# D $end
+$var wire 1 t# Qn $end
+$var wire 1 $ clk $end
+$var wire 1 d# en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 u# Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin memory_cells[13] $end
+$var parameter 5 v# i $end
+$scope module reg_inst $end
+$var wire 4 w# D_in [3:0] $end
+$var wire 1 $ clk $end
+$var wire 1 x# enable $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var wire 4 y# Q [3:0] $end
+$scope begin FF_GEN[0] $end
+$var parameter 2 z# i $end
+$scope module ff $end
+$var wire 1 {# D $end
+$var wire 1 |# Qn $end
+$var wire 1 $ clk $end
+$var wire 1 x# en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 }# Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[1] $end
+$var parameter 2 ~# i $end
+$scope module ff $end
+$var wire 1 !$ D $end
+$var wire 1 "$ Qn $end
+$var wire 1 $ clk $end
+$var wire 1 x# en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 #$ Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[2] $end
+$var parameter 3 $$ i $end
+$scope module ff $end
+$var wire 1 %$ D $end
+$var wire 1 &$ Qn $end
+$var wire 1 $ clk $end
+$var wire 1 x# en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 '$ Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[3] $end
+$var parameter 3 ($ i $end
+$scope module ff $end
+$var wire 1 )$ D $end
+$var wire 1 *$ Qn $end
+$var wire 1 $ clk $end
+$var wire 1 x# en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 +$ Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin memory_cells[14] $end
+$var parameter 5 ,$ i $end
+$scope module reg_inst $end
+$var wire 4 -$ D_in [3:0] $end
+$var wire 1 $ clk $end
+$var wire 1 .$ enable $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var wire 4 /$ Q [3:0] $end
+$scope begin FF_GEN[0] $end
+$var parameter 2 0$ i $end
+$scope module ff $end
+$var wire 1 1$ D $end
+$var wire 1 2$ Qn $end
+$var wire 1 $ clk $end
+$var wire 1 .$ en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 3$ Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[1] $end
+$var parameter 2 4$ i $end
+$scope module ff $end
+$var wire 1 5$ D $end
+$var wire 1 6$ Qn $end
+$var wire 1 $ clk $end
+$var wire 1 .$ en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 7$ Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[2] $end
+$var parameter 3 8$ i $end
+$scope module ff $end
+$var wire 1 9$ D $end
+$var wire 1 :$ Qn $end
+$var wire 1 $ clk $end
+$var wire 1 .$ en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 ;$ Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[3] $end
+$var parameter 3 <$ i $end
+$scope module ff $end
+$var wire 1 =$ D $end
+$var wire 1 >$ Qn $end
+$var wire 1 $ clk $end
+$var wire 1 .$ en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 ?$ Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin memory_cells[15] $end
+$var parameter 5 @$ i $end
+$scope module reg_inst $end
+$var wire 4 A$ D_in [3:0] $end
+$var wire 1 $ clk $end
+$var wire 1 B$ enable $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var wire 4 C$ Q [3:0] $end
+$scope begin FF_GEN[0] $end
+$var parameter 2 D$ i $end
+$scope module ff $end
+$var wire 1 E$ D $end
+$var wire 1 F$ Qn $end
+$var wire 1 $ clk $end
+$var wire 1 B$ en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 G$ Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[1] $end
+$var parameter 2 H$ i $end
+$scope module ff $end
+$var wire 1 I$ D $end
+$var wire 1 J$ Qn $end
+$var wire 1 $ clk $end
+$var wire 1 B$ en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 K$ Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[2] $end
+$var parameter 3 L$ i $end
+$scope module ff $end
+$var wire 1 M$ D $end
+$var wire 1 N$ Qn $end
+$var wire 1 $ clk $end
+$var wire 1 B$ en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 O$ Q $end
+$upscope $end
+$upscope $end
+$scope begin FF_GEN[3] $end
+$var parameter 3 P$ i $end
+$scope module ff $end
+$var wire 1 Q$ D $end
+$var wire 1 R$ Qn $end
+$var wire 1 $ clk $end
+$var wire 1 B$ en $end
+$var wire 1 ' reset $end
+$var wire 1 ( set $end
+$var reg 1 S$ Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 P$
+b10 L$
+b1 H$
+b0 D$
+b1111 @$
+b11 <$
+b10 8$
+b1 4$
+b0 0$
+b1110 ,$
+b11 ($
+b10 $$
+b1 ~#
+b0 z#
+b1101 v#
+b11 r#
+b10 n#
+b1 j#
+b0 f#
+b1100 b#
+b11 ^#
+b10 Z#
+b1 V#
+b0 R#
+b1011 N#
+b11 J#
+b10 F#
+b1 B#
+b0 >#
+b1010 :#
+b11 6#
+b10 2#
+b1 .#
+b0 *#
+b1001 &#
+b11 "#
+b10 |"
+b1 x"
+b0 t"
+b1000 p"
+b11 l"
+b10 h"
+b1 d"
+b0 `"
+b111 \"
+b11 X"
+b10 T"
+b1 P"
+b0 L"
+b110 H"
+b11 D"
+b10 @"
+b1 <"
+b0 8"
+b101 4"
+b11 0"
+b10 ,"
+b1 ("
+b0 $"
+b100 ~
+b11 z
+b10 v
+b1 r
+b0 n
+b11 j
+b11 f
+b10 b
+b1 ^
+b0 Z
+b10 V
+b11 R
+b10 N
+b1 J
+b0 F
+b1 B
+b11 >
+b10 :
+b1 6
+b0 2
+b0 .
+b1010 "
+$end
+#0
+$dumpvars
+0S$
+1R$
+0Q$
+0O$
+1N$
+0M$
+0K$
+1J$
+0I$
+0G$
+1F$
+0E$
+b0 C$
+0B$
+b0 A$
+0?$
+1>$
+0=$
+0;$
+1:$
+09$
+07$
+16$
+05$
+03$
+12$
+01$
+b0 /$
+0.$
+b0 -$
+0+$
+1*$
+0)$
+0'$
+1&$
+0%$
+0#$
+1"$
+0!$
+0}#
+1|#
+0{#
+b0 y#
+0x#
+b0 w#
+0u#
+1t#
+0s#
+0q#
+1p#
+0o#
+0m#
+1l#
+0k#
+0i#
+1h#
+0g#
+b0 e#
+0d#
+b0 c#
+0a#
+1`#
+0_#
+0]#
+1\#
+0[#
+0Y#
+1X#
+0W#
+0U#
+1T#
+0S#
+b0 Q#
+0P#
+b0 O#
+0M#
+1L#
+0K#
+0I#
+1H#
+0G#
+0E#
+1D#
+0C#
+0A#
+1@#
+0?#
+b0 =#
+0<#
+b0 ;#
+09#
+18#
+07#
+05#
+14#
+03#
+01#
+10#
+0/#
+0-#
+1,#
+0+#
+b0 )#
+0(#
+b0 '#
+0%#
+1$#
+0##
+0!#
+1~"
+0}"
+0{"
+1z"
+0y"
+0w"
+1v"
+0u"
+b0 s"
+0r"
+b0 q"
+0o"
+1n"
+0m"
+0k"
+1j"
+0i"
+0g"
+1f"
+0e"
+0c"
+1b"
+0a"
+b0 _"
+0^"
+b0 ]"
+0["
+1Z"
+0Y"
+0W"
+1V"
+0U"
+0S"
+1R"
+0Q"
+0O"
+1N"
+0M"
+b0 K"
+0J"
+b0 I"
+0G"
+1F"
+0E"
+0C"
+1B"
+0A"
+0?"
+1>"
+0="
+0;"
+1:"
+09"
+b0 7"
+06"
+b0 5"
+03"
+12"
+01"
+0/"
+1."
+0-"
+0+"
+1*"
+0)"
+0'"
+1&"
+0%"
+b0 #"
+0""
+b0 !"
+0}
+1|
+0{
+0y
+1x
+0w
+0u
+1t
+0s
+0q
+1p
+0o
+b0 m
+0l
+b0 k
+0i
+1h
+0g
+0e
+1d
+0c
+0a
+1`
+0_
+0]
+1\
+0[
+b0 Y
+0X
+b0 W
+0U
+1T
+0S
+0Q
+1P
+0O
+0M
+1L
+0K
+0I
+1H
+0G
+b0 E
+0D
+b0 C
+0A
+1@
+0?
+0=
+1<
+0;
+09
+18
+07
+05
+14
+03
+b0 1
+00
+b0 /
+bz -
+b0 ,
+b0 +
+b0 *
+0)
+0(
+1'
+0&
+b0 %
+0$
+b0 #
+bz !
+$end
+#50000
+1$
+#100000
+0$
+#150000
+1$
+#200000
+0$
+#250000
+1$
+#300000
+0$
+#350000
+1$
+#400000
+0$
+#450000
+1$
+#500000
+0$
+#550000
+1$
+#600000
+0$
+#650000
+1$
+#700000
+0$
+#750000
+1$
+#800000
+0$
+#850000
+1$
+#900000
+0$
+#950000
+1$
+#1000000
+10
+17
+1?
+1K
+1S
+1_
+1g
+1s
+1{
+1)"
+11"
+1="
+1E"
+1Q"
+1Y"
+1e"
+1m"
+1y"
+1##
+1/#
+17#
+1C#
+1K#
+1W#
+1_#
+1k#
+1s#
+1!$
+1)$
+15$
+1=$
+1I$
+1Q$
+b1 ,
+0$
+b1010 %
+b1010 +
+b1010 /
+b1010 C
+b1010 W
+b1010 k
+b1010 !"
+b1010 5"
+b1010 I"
+b1010 ]"
+b1010 q"
+b1010 '#
+b1010 ;#
+b1010 O#
+b1010 c#
+b1010 w#
+b1010 -$
+b1010 A$
+1)
+0'
+#1050000
+0@
+08
+1A
+b1010 1
+19
+1$
+#1100000
+0$
+#1150000
+1$
+#1200000
+0$
+#1250000
+1$
+#1300000
+0$
+#1350000
+1$
+#1400000
+0$
+#1450000
+1$
+#1500000
+0$
+#1550000
+1$
+#1600000
+0$
+#1650000
+1$
+#1700000
+0$
+#1750000
+1$
+#1800000
+0$
+#1850000
+1$
+#1900000
+0$
+#1950000
+1$
+#2000000
+1D
+00
+13
+07
+1;
+0?
+1G
+0K
+1O
+0S
+1[
+0_
+1c
+0g
+1o
+0s
+1w
+0{
+1%"
+0)"
+1-"
+01"
+19"
+0="
+1A"
+0E"
+1M"
+0Q"
+1U"
+0Y"
+1a"
+0e"
+1i"
+0m"
+1u"
+0y"
+1}"
+0##
+1+#
+0/#
+13#
+07#
+1?#
+0C#
+1G#
+0K#
+1S#
+0W#
+1[#
+0_#
+1g#
+0k#
+1o#
+0s#
+1{#
+0!$
+1%$
+0)$
+11$
+05$
+19$
+0=$
+1E$
+0I$
+1M$
+0Q$
+b10 ,
+0$
+b101 %
+b101 +
+b101 /
+b101 C
+b101 W
+b101 k
+b101 !"
+b101 5"
+b101 I"
+b101 ]"
+b101 q"
+b101 '#
+b101 ;#
+b101 O#
+b101 c#
+b101 w#
+b101 -$
+b101 A$
+b1 #
+b1 *
+#2050000
+0P
+0H
+1Q
+b101 E
+1I
+1$
+#2100000
+0$
+#2150000
+1$
+#2200000
+0$
+#2250000
+1$
+#2300000
+0$
+#2350000
+1$
+#2400000
+0$
+#2450000
+1$
+#2500000
+0$
+#2550000
+1$
+#2600000
+0$
+#2650000
+1$
+#2700000
+0$
+#2750000
+1$
+#2800000
+0$
+#2850000
+1$
+#2900000
+0$
+#2950000
+1$
+#3000000
+1X
+0D
+17
+1?
+1K
+1S
+1_
+1g
+1s
+1{
+1)"
+11"
+1="
+1E"
+1Q"
+1Y"
+1e"
+1m"
+1y"
+1##
+1/#
+17#
+1C#
+1K#
+1W#
+1_#
+1k#
+1s#
+1!$
+1)$
+15$
+1=$
+1I$
+1Q$
+b100 ,
+0$
+b1111 %
+b1111 +
+b1111 /
+b1111 C
+b1111 W
+b1111 k
+b1111 !"
+b1111 5"
+b1111 I"
+b1111 ]"
+b1111 q"
+b1111 '#
+b1111 ;#
+b1111 O#
+b1111 c#
+b1111 w#
+b1111 -$
+b1111 A$
+b10 #
+b10 *
+#3050000
+0h
+0d
+0`
+0\
+1i
+1e
+1a
+b1111 Y
+1]
+1$
+#3100000
+0$
+#3150000
+1$
+#3200000
+0$
+#3250000
+1$
+#3300000
+0$
+#3350000
+1$
+#3400000
+0$
+#3450000
+1$
+#3500000
+0$
+#3550000
+1$
+#3600000
+0$
+#3650000
+1$
+#3700000
+0$
+#3750000
+1$
+#3800000
+0$
+#3850000
+1$
+#3900000
+0$
+#3950000
+1$
+#4000000
+1l
+0X
+07
+0;
+0?
+0K
+0O
+0S
+0_
+0c
+0g
+0s
+0w
+0{
+0)"
+0-"
+01"
+0="
+0A"
+0E"
+0Q"
+0U"
+0Y"
+0e"
+0i"
+0m"
+0y"
+0}"
+0##
+0/#
+03#
+07#
+0C#
+0G#
+0K#
+0W#
+0[#
+0_#
+0k#
+0o#
+0s#
+0!$
+0%$
+0)$
+05$
+09$
+0=$
+0I$
+0M$
+0Q$
+b1000 ,
+0$
+b1 %
+b1 +
+b1 /
+b1 C
+b1 W
+b1 k
+b1 !"
+b1 5"
+b1 I"
+b1 ]"
+b1 q"
+b1 '#
+b1 ;#
+b1 O#
+b1 c#
+b1 w#
+b1 -$
+b1 A$
+b11 #
+b11 *
+#4050000
+0p
+b1 m
+1q
+1$
+#4100000
+0$
+#4150000
+1$
+#4200000
+0$
+#4250000
+1$
+#4300000
+0$
+#4350000
+1$
+#4400000
+0$
+#4450000
+1$
+#4500000
+0$
+#4550000
+1$
+#4600000
+0$
+#4650000
+1$
+#4700000
+0$
+#4750000
+1$
+#4800000
+0$
+#4850000
+1$
+#4900000
+0$
+#4950000
+1$
+#5000000
+0l
+b0 ,
+0$
+0)
+#5050000
+1$
+#5100000
+0$
+#5150000
+1$
+#5200000
+0$
+#5250000
+1$
+#5300000
+0$
+#5350000
+1$
+#5400000
+0$
+#5450000
+1$
+#5500000
+0$
+#5550000
+1$
+#5600000
+0$
+#5650000
+1$
+#5700000
+0$
+#5750000
+1$
+#5800000
+0$
+#5850000
+1$
+#5900000
+0$
+#5950000
+1$
+#6000000
+b1010 !
+b1010 -
+0$
+b0 #
+b0 *
+1&
+#6050000
+1$
+#6100000
+0$
+#6150000
+1$
+#6200000
+0$
+#6250000
+1$
+#6300000
+0$
+#6350000
+1$
+#6400000
+0$
+#6450000
+1$
+#6500000
+0$
+#6550000
+1$
+#6600000
+0$
+#6650000
+1$
+#6700000
+0$
+#6750000
+1$
+#6800000
+0$
+#6850000
+1$
+#6900000
+0$
+#6950000
+1$
+#7000000
+b101 !
+b101 -
+0$
+b1 #
+b1 *
+#7050000
+1$
+#7100000
+0$
+#7150000
+1$
+#7200000
+0$
+#7250000
+1$
+#7300000
+0$
+#7350000
+1$
+#7400000
+0$
+#7450000
+1$
+#7500000
+0$
+#7550000
+1$
+#7600000
+0$
+#7650000
+1$
+#7700000
+0$
+#7750000
+1$
+#7800000
+0$
+#7850000
+1$
+#7900000
+0$
+#7950000
+1$
+#8000000
+b1111 !
+b1111 -
+0$
+b10 #
+b10 *
+#8050000
+1$
+#8100000
+0$
+#8150000
+1$
+#8200000
+0$
+#8250000
+1$
+#8300000
+0$
+#8350000
+1$
+#8400000
+0$
+#8450000
+1$
+#8500000
+0$
+#8550000
+1$
+#8600000
+0$
+#8650000
+1$
+#8700000
+0$
+#8750000
+1$
+#8800000
+0$
+#8850000
+1$
+#8900000
+0$
+#8950000
+1$
+#9000000
+b1 !
+b1 -
+0$
+b11 #
+b11 *
+#9050000
+1$
+#9100000
+0$
+#9150000
+1$
+#9200000
+0$
+#9250000
+1$
+#9300000
+0$
+#9350000
+1$
+#9400000
+0$
+#9450000
+1$
+#9500000
+0$
+#9550000
+1$
+#9600000
+0$
+#9650000
+1$
+#9700000
+0$
+#9750000
+1$
+#9800000
+0$
+#9850000
+1$
+#9900000
+0$
+#9950000
+1$
+#10000000
+bz !
+bz -
+0$
+0&
+#10050000
+1$
+#10100000
+0$
+#10150000
+1$
+#10200000
+0$
+#10250000
+1$
+#10300000
+0$
+#10350000
+1$
+#10400000
+0$
+#10450000
+1$
+#10500000
+0$
+#10550000
+1$
+#10600000
+0$
+#10650000
+1$
+#10700000
+0$
+#10750000
+1$
+#10800000
+0$
+#10850000
+1$
+#10900000
+0$
+#10950000
+1$
+#11000000
+0$
+#11050000
+1$
+#11100000
+0$
+#11150000
+1$
+#11200000
+0$
+#11250000
+1$
+#11300000
+0$
+#11350000
+1$
+#11400000
+0$
+#11450000
+1$
+#11500000
+0$
+#11550000
+1$
+#11600000
+0$
+#11650000
+1$
+#11700000
+0$
+#11750000
+1$
+#11800000
+0$
+#11850000
+1$
+#11900000
+0$
+#11950000
+1$
+#12000000
+0$

@@ -1,0 +1,21 @@
+# -----------------------------------------------------------------------------
+#- EDU-CIAA-FPGA constraint file (.pcf)
+#- Sep - 2020
+#- GPL license
+#- Repo: https://gitlab.com/educiaafpga
+#- Pinout: https://github.com/ciaa/Hardware/blob/master/PCB/EDU-FPGA/Pinout/Pinout%20EDU%20FPGA.pdf
+# -----------------------------------------------------------------------------
+
+#------ User LEDs
+set_io -nowarn S 4  #-- output 
+set_io -nowarn Cout 3  #-- output
+set_io -nowarn LED[1] 2  #-- output 
+set_io -nowarn LED[0] 1  #-- output
+
+# ------------ User push buttons ----------------------------------------------
+set_io -nowarn A 31  # input
+set_io -nowarn B 32  # input
+set_io -nowarn Cin 33  # input
+set_io -nowarn BTN[3] 34  # input
+
+# ------------- Digital I/O ---------------------------------

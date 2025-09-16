@@ -36,8 +36,8 @@ initial begin
         $display ("Current loop # %0d",i);
         
         #1
-        entradas = i;
-        test_BTN = entradas;
+        //entradas = i;
+        test_BTN = i;//entradas;
         end
     
         // Finaliza la simulación

@@ -32,7 +32,7 @@ initial begin
     begin
         $display ("Current loop # %0d",i);
         
-        #1
+        #1;
         entradas = i;
         test_BTN = entradas;
         end

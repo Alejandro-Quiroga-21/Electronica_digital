@@ -1,6 +1,77 @@
 {
   "creator": "Yosys 0.33+6 (git sha1 31ee566ec, x86_64-w64-mingw32-g++ 9.2.1 -Os)",
   "modules": {
+    "Eje_01": {
+      "attributes": {
+        "hdlname": "\\Eje_01",
+        "top": "00000000000000000000000000000001",
+        "src": "Eje_01.v:1.1-8.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "X": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+        "X_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1111000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\carol\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:17.34-18.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ "0" ],
+            "I2": [ 2 ],
+            "I3": [ 3 ],
+            "O": [ 4 ]
+          }
+        }
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "Eje_01.v:2.16-2.17"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "Eje_01.v:2.18-2.19"
+          }
+        },
+        "X": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "Eje_01.v:3.17-3.18"
+          }
+        }
+      }
+    },
     "ICESTORM_LC": {
       "attributes": {
         "blackbox": "00000000000000000000000000000001",
@@ -9637,249 +9708,6 @@
           "bits": [ 3 ],
           "attributes": {
             "src": "C:\\Users\\carol\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_sim.v:2595.8-2595.10"
-          }
-        }
-      }
-    },
-    "seg_7_func": {
-      "attributes": {
-        "hdlname": "\\seg_7_func",
-        "top": "00000000000000000000000000000001",
-        "src": "seg_7_func.v:1.1-14.10"
-      },
-      "ports": {
-        "A": {
-          "direction": "input",
-          "bits": [ 2 ]
-        },
-        "B": {
-          "direction": "input",
-          "bits": [ 3 ]
-        },
-        "C": {
-          "direction": "input",
-          "bits": [ 4 ]
-        },
-        "D": {
-          "direction": "input",
-          "bits": [ 5 ]
-        },
-        "seg_7": {
-          "direction": "output",
-          "bits": [ 6, 7, 8, 9, 10, 11, 12 ]
-        }
-      },
-      "cells": {
-        "seg_7_SB_LUT4_O": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1101111111111100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\carol\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 5 ],
-            "I1": [ 2 ],
-            "I2": [ 4 ],
-            "I3": [ 3 ],
-            "O": [ 12 ]
-          }
-        },
-        "seg_7_SB_LUT4_O_1": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1111111101001101"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\carol\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 5 ],
-            "I1": [ 3 ],
-            "I2": [ 4 ],
-            "I3": [ 2 ],
-            "O": [ 11 ]
-          }
-        },
-        "seg_7_SB_LUT4_O_2": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0000001100000101"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\carol\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 3 ],
-            "I1": [ 2 ],
-            "I2": [ 5 ],
-            "I3": [ 4 ],
-            "O": [ 10 ]
-          }
-        },
-        "seg_7_SB_LUT4_O_3": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1011111011001111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\carol\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 2 ],
-            "I1": [ 4 ],
-            "I2": [ 5 ],
-            "I3": [ 3 ],
-            "O": [ 9 ]
-          }
-        },
-        "seg_7_SB_LUT4_O_4": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1111111011111111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\carol\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 2 ],
-            "I1": [ 5 ],
-            "I2": [ 3 ],
-            "I3": [ 4 ],
-            "O": [ 8 ]
-          }
-        },
-        "seg_7_SB_LUT4_O_5": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1110101111111111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\carol\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 2 ],
-            "I1": [ 5 ],
-            "I2": [ 4 ],
-            "I3": [ 3 ],
-            "O": [ 7 ]
-          }
-        },
-        "seg_7_SB_LUT4_O_6": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1111111011101111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\carol\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 2 ],
-            "I1": [ 4 ],
-            "I2": [ 5 ],
-            "I3": [ 3 ],
-            "O": [ 6 ]
-          }
-        }
-      },
-      "netnames": {
-        "A": {
-          "hide_name": 0,
-          "bits": [ 2 ],
-          "attributes": {
-            "src": "seg_7_func.v:2.16-2.17"
-          }
-        },
-        "B": {
-          "hide_name": 0,
-          "bits": [ 3 ],
-          "attributes": {
-            "src": "seg_7_func.v:2.19-2.20"
-          }
-        },
-        "C": {
-          "hide_name": 0,
-          "bits": [ 4 ],
-          "attributes": {
-            "src": "seg_7_func.v:2.22-2.23"
-          }
-        },
-        "D": {
-          "hide_name": 0,
-          "bits": [ 5 ],
-          "attributes": {
-            "src": "seg_7_func.v:2.25-2.26"
-          }
-        },
-        "seg_7": {
-          "hide_name": 0,
-          "bits": [ 6, 7, 8, 9, 10, 11, 12 ],
-          "attributes": {
-            "src": "seg_7_func.v:3.23-3.28"
           }
         }
       }

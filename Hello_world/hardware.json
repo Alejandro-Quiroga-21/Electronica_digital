@@ -2254,9 +2254,8 @@
     },
     "SB_DFF": {
       "attributes": {
-        "blackbox": "00000000000000000000000000000001",
         "abc9_flop": "00000000000000000000000000000001",
-        "cells_not_processed": "00000000000000000000000000000001",
+        "blackbox": "00000000000000000000000000000001",
         "src": "C:\\Users\\carol\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_sim.v:265.1-300.10"
       },
       "ports": {
@@ -9641,44 +9640,52 @@
         }
       }
     },
-    "seg_7_func": {
+    "main": {
       "attributes": {
-        "hdlname": "\\seg_7_func",
+        "hdlname": "\\main",
         "top": "00000000000000000000000000000001",
-        "src": "seg_7_func.v:1.1-14.10"
+        "src": "main.v:1.1-22.10"
       },
       "ports": {
-        "A": {
+        "CLK": {
           "direction": "input",
           "bits": [ 2 ]
         },
-        "B": {
-          "direction": "input",
-          "bits": [ 3 ]
-        },
-        "C": {
-          "direction": "input",
-          "bits": [ 4 ]
-        },
-        "D": {
-          "direction": "input",
-          "bits": [ 5 ]
-        },
-        "seg_7": {
+        "LED0": {
           "direction": "output",
-          "bits": [ 6, 7, 8, 9, 10, 11, 12 ]
+          "bits": [ 3 ]
         }
       },
       "cells": {
-        "seg_7_SB_LUT4_O": {
+        "LED0_REG_SB_DFF_Q": {
           "hide_name": 0,
-          "type": "SB_LUT4",
+          "type": "SB_DFF",
           "parameters": {
-            "LUT_INIT": "1101111111111100"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\carol\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "main.v:11.1-18.4|C:\\Users\\carol\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
+          },
+          "port_directions": {
+            "C": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "C": [ 2 ],
+            "D": [ 4 ],
+            "Q": [ 3 ]
+          }
+        },
+        "LED0_REG_SB_LUT4_I3": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0000000011111111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\carol\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:12.34-13.52"
           },
           "port_directions": {
             "I0": "input",
@@ -9688,198 +9695,41 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 5 ],
-            "I1": [ 2 ],
-            "I2": [ 4 ],
+            "I0": [ "0" ],
+            "I1": [ "0" ],
+            "I2": [ "0" ],
             "I3": [ 3 ],
-            "O": [ 12 ]
-          }
-        },
-        "seg_7_SB_LUT4_O_1": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1111111101001101"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\carol\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 5 ],
-            "I1": [ 3 ],
-            "I2": [ 4 ],
-            "I3": [ 2 ],
-            "O": [ 11 ]
-          }
-        },
-        "seg_7_SB_LUT4_O_2": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0000001100000101"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\carol\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 3 ],
-            "I1": [ 2 ],
-            "I2": [ 5 ],
-            "I3": [ 4 ],
-            "O": [ 10 ]
-          }
-        },
-        "seg_7_SB_LUT4_O_3": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1011111011001111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\carol\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 2 ],
-            "I1": [ 4 ],
-            "I2": [ 5 ],
-            "I3": [ 3 ],
-            "O": [ 9 ]
-          }
-        },
-        "seg_7_SB_LUT4_O_4": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1111111011111111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\carol\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 2 ],
-            "I1": [ 5 ],
-            "I2": [ 3 ],
-            "I3": [ 4 ],
-            "O": [ 8 ]
-          }
-        },
-        "seg_7_SB_LUT4_O_5": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1110101111111111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\carol\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 2 ],
-            "I1": [ 5 ],
-            "I2": [ 4 ],
-            "I3": [ 3 ],
-            "O": [ 7 ]
-          }
-        },
-        "seg_7_SB_LUT4_O_6": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1111111011101111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\carol\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 2 ],
-            "I1": [ 4 ],
-            "I2": [ 5 ],
-            "I3": [ 3 ],
-            "O": [ 6 ]
+            "O": [ 4 ]
           }
         }
       },
       "netnames": {
-        "A": {
+        "CLK": {
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
-            "src": "seg_7_func.v:2.16-2.17"
+            "src": "main.v:2.16-2.19"
           }
         },
-        "B": {
+        "LED0": {
           "hide_name": 0,
           "bits": [ 3 ],
           "attributes": {
-            "src": "seg_7_func.v:2.19-2.20"
+            "src": "main.v:3.17-3.21"
           }
         },
-        "C": {
+        "LED0_REG": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "main.v:9.5-9.13"
+          }
+        },
+        "LED0_REG_SB_DFF_Q_D": {
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
-            "src": "seg_7_func.v:2.22-2.23"
-          }
-        },
-        "D": {
-          "hide_name": 0,
-          "bits": [ 5 ],
-          "attributes": {
-            "src": "seg_7_func.v:2.25-2.26"
-          }
-        },
-        "seg_7": {
-          "hide_name": 0,
-          "bits": [ 6, 7, 8, 9, 10, 11, 12 ],
-          "attributes": {
-            "src": "seg_7_func.v:3.23-3.28"
+            "src": "main.v:11.1-18.4"
           }
         }
       }
